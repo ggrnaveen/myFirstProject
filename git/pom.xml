@@ -32,16 +32,16 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>${mule.version}</muleVersion>
+						<muleVersion>${app.runtime}</muleVersion>
 						<!--  Deploy User Parameter  -->
-						<username>${anypoint.username}</username>
-						<password>${anypoint.password}</password>
+						<username>Naveen405</username>
+						<password>Naveen420$</password>
 						
-						<environment>${env}</environment>
-						<applicationName>${appname}</applicationName>
-						<businessGroup>${business}</businessGroup>
-						<workerType>${vCore}</workerType>
-						<workers>${workers}</workers>
+						<environment>Sandbox</environment>
+						<applicationName>myFirstProject</applicationName>
+						<businessGroup>Infosys</businessGroup>
+						<workerType>Micro</workerType>
+						<workers>1</workers>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 					
